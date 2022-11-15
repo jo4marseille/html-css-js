@@ -1,0 +1,150 @@
+*{box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+
+head{
+
+    background-image: url(../images/pexels-pixabay-236937.jpg);
+}
+
+.row{
+display: flex;
+justify-content: space-around;
+height: 80px;
+width: 100%;
+background-color: rgb(124, 122, 122);
+opacity: 0.74;
+border: none;
+z-index: 100;
+position: fixed;
+margin: 0;
+}
+
+.imglogo{
+    width: 150px;
+    height: 80px;
+}
+
+.linkpage{
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    box-shadow: none;
+    padding: 0px 10px 0px 20px;
+    color:white;
+    list-style-type: none;
+}
+
+a:hover{
+    
+    color: #C57ED3;
+    border-color: #C57ED3;
+    
+}
+
+
+h1{color: #00A651;
+   
+    text-align: center;
+    font-size: xxx-large;}
+h2{
+    color: #00A651;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.listransport{}
+
+.bus {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: flex-end;
+
+    background: url(img/nouveau-bus-electrique-rtm-janvier-2022.jpg);
+    background-size: 16/9;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;    
+    
+} 
+
+.proposition{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.mapitineraire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.col{
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    cursor: pointer;
+}
+.col:hover{
+    box-shadow: 0 8px 30px 0 rgba(83, 176, 57, 0.75);
+    cursor: pointer;
+    transform: scale(1.01);
+   
+
+}
+
+
+
+
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    background-image: linear-gradient(
+    to right,
+    #0282C8,
+    #F3F3F3);
+}
+
+button:hover{
+    background-image: linear-gradient(
+    to right,
+    #0282C8,
+    #F3F3F3
+    
+  );
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+  font-weight: 600;
+    
+
+}
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #707070;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer a {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer img {
+    height: 70px;
+    object-fit: contain;
+  }
