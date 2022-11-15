@@ -47,6 +47,7 @@ input[type="checkbox"]:checked + label::after {
 .selected {
     background-color: #00A651;
     border-radius: 15px;
+    color: white;
 }
 
 .dropdown-check-list {
