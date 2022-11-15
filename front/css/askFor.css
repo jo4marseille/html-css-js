@@ -1,0 +1,164 @@
+/* ==========================================================================
+   Your custom CSS styles
+   ========================================================================== */
+
+/* global style */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    margin-bottom: 7px;
+    margin-left: 20px
+}
+
+/* container */
+
+.containerAskFor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    padding-top: 100px;
+}
+
+.containerForm{
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    padding-top: 60px;
+}
+
+.containerSocial{
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    height: 100px;
+    width: 95%;
+    position: absolute;
+    bottom: 65px;
+    background-color: #ED354F;
+    border-radius: 25px;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 1vh;
+    height: 80px;
+    padding-left: 10px;
+}
+
+/* main */
+
+.askForButton {
+    background-color: #ED354F;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tag {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: #1e1e1e solid 2px;
+    border-radius: 9999px;
+    margin: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: rgba(237, 53, 79, 0.5);
+}
+
+.colorRed{
+    color: red;
+    margin-left: 7px;
+}
+
+.socialLink{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemSocial{
+    border: white solid 2px;
+    padding: 15px;
+    border-radius: 9999px;
+    font-size: 12px;
+}
+
+/* footer */
+
+.footer-print {
+    padding-top: 10px;
+    bottom: 0;
+    position: absolute;
+    background-color: #ED354F;
+    border-radius: 4px 4px 0px 0px;
+    min-width: 100vw;
+    display: flex;
+    padding: 5px 0px;
+    height: 40px;
+}
+
+/* ==========================================================================
+   Your custom CSS styles for smartphones and screens smaller than 480 px
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    /* insert styles here */
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/* Clearfix
+ * Adding a 'clearfix' class will allow parent elements to contain a floated child element
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
