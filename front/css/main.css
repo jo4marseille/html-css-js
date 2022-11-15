@@ -1,12 +1,6 @@
 /* ==========================================================================
    Your custom CSS styles
    ========================================================================== */
-*{
-    font-family: 'Poppins', sans-serif;
-    
-}
-
-
 
 .jc-c {
     justify-content: center;
@@ -29,11 +23,6 @@
 .w-800 {
     max-width: 800px;
 }
-
-
-/* ==========================================================================
-   Your custom CSS styles for smartphones and screens smaller than 480 px
-   ========================================================================== */
 
 @media only screen and (max-width: 480px) {
     /* insert styles here */
