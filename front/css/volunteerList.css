@@ -35,35 +35,43 @@ h1{
     width: 100%;
 }
 
-.listVolunteer{
-    margin-left: auto;
-    margin-right: auto;
+.listVolunteer {
+    margin: 38px auto;
+    padding: 0;
+    width: 300px;
+    color: white;
+}
+
+/* List element */
+.itemVolunteer {
+    background-color: rgba(237, 53, 79, 0.5);
+    margin-top: 10px;
     display: flex;
-    height: 100px;
-    width: 90%;
-    border: solid 2px #ED354F;
+    align-items: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
     border-radius: 25px;
 }
 
-.socialLink{
-    color: black;
-    margin-right: auto;
-    margin-left: auto;
-    width: 85%;
+.profile {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px rgba(0, 0, 0, 0.5) solid;
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
 }
 
-.itemVolunteer{
-    border: white solid 2px;
-    padding: 15px;
-    border-radius: 9999px;
+.profile i {
+font-size: 35px;
 }
 
 /* footer */
 
 .footer{
-    margin-top: 420px;
+    margin-top: 26px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
