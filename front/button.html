@@ -36,5 +36,48 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     </head>
 
-    <body>x</body>
+    <body>
+        <button type="button" id="btn_donation" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#donation">Faire un don</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="donation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h2 class="text-center py-3">FORMULAIRE DE DON</h2>
+                        <form>
+                            <div class="row">
+                                <label for="last_name" class="col-3 mb-3 fw-bold">NOM :</label>
+                                <input type="text" class="col-9 mb-3 input_rounded" id="last_name" />
+
+                                <label for="first_name" class="col-3 mb-3 fw-bold">PRÉNOM :</label>
+                                <input type="text" id="first_name" class="col-9 mb-3 input_rounded"/>
+
+                                <label for="email" class="col-3 mb-3 fw-bold">E-MAIL :</label>
+                                <input type="email" id="email" class="col-9 mb-3 input_rounded"/>
+
+                                <label for="telephone" class="col-3 mb-3 fw-bold">TÉL :</label>
+                                <input type="tel" id="telephone" class="col-9 mb-3 input_rounded"/>
+
+                                <label for="amount" class="col-3 mb-3 fw-bold">MONTANT :</label>
+                                <input type="number" id="amount" class="col-9 mb-3 input_rounded"/>
+
+                                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Donner</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>g
+        </div>
+
+        <!--
+        These script tags load jQuery, any plugins you've downloaded,
+        and your main JavaScript file into your web page
+        -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
 </html>
