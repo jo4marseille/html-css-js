@@ -1,0 +1,24 @@
+*{box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{color: #00A651;
+text-align: center;}
+
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-image: linear-gradient(
+    to right,
+    #0282C8,
+    #00A651,
+    #ED354F
+  );
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    
+
+}
