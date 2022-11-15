@@ -18,3 +18,27 @@
     border: 2px solid #0282c8;
     border-radius: 15px;
 }
+
+.sport {
+    color: #00a651
+}
+
+.my-location {
+    color: black;
+}
+
+.food {
+    color: #fcbf31;
+}
+
+.art {
+    color: #0282c8;
+}
+
+.hotel {
+    color: #ED354F;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
