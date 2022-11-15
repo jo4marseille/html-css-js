@@ -1,0 +1,30 @@
+.footer-print {
+  bottom: 0;
+  position: absolute;
+  background-color: #f3f3f3;
+  border-radius: 4px 4px 0px 0px;
+  min-width: 100vw;
+  display: flex;
+  padding: 5px 0px;
+}
+
+.footer a {
+  height: 30px;
+}
+
+.icons-nav {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.active {
+  color: red;
+}
+
+.tabs:active {
+  color: red;
+}
+
+.tabs {
+  color: #f3f3f3;
+}
