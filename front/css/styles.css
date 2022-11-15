@@ -126,7 +126,7 @@ body{
   height: 60px;
   position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 51px;
     width: 100%;
   /* background: #40434e; */
   border-top: 1px solid #939393;
