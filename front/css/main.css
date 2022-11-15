@@ -39,6 +39,7 @@ head{
     background-image: url(../images/pexels-pixabay-236937.jpg);
 }
 
+body{background-color: #f3f3f3;}
 .row{
 display: flex;
 justify-content: space-around;

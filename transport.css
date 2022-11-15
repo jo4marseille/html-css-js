@@ -2,14 +2,17 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     user-select: none;
+    /* background-color: #F3F3F3; */
 }
 
-
+body{background-color: #F3F3F3;}
 head{
 
     background-image: url(../images/pexels-pixabay-236937.jpg);
 }
-
+article{
+    margin-bottom: 150px;
+ }
 .row{
 display: flex;
 justify-content: space-around;
@@ -52,7 +55,8 @@ a:hover{
 h1{color: #00A651;
    
     text-align: center;
-    font-size: xxx-large;}
+    font-size: xxx-large;
+padding: 50px;}
 h2{
     color: #00A651;
     text-align: right;
