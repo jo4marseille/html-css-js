@@ -2,6 +2,30 @@
    Your custom CSS styles
    ========================================================================== */
 
+.bg-violet {
+    background-color: #00004D;
+}
+
+.carousel-indicators [data-bs-target]{
+    opacity: 1 !important;
+}
+
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100% !important;
+}
+
+.carousel-indicators .active{
+    background-color: #FF5757 !important;
+}
+
+.btn-outline-dark{
+    border-radius: 25px !important;
+    padding: 10px 15px !important;
+    font-weight: bold !important;
+}
+
 .container {
     padding: 0 2rem;
 }
