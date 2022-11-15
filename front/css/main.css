@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+.carousel_sport {
+    z-index: -1 !important;
+}
+
 .carousel-indicators [data-bs-target]{
     opacity: 1 !important;
 }

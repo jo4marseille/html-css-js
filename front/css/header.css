@@ -278,6 +278,7 @@ li a{
   border-radius: 2px;
   overflow: hidden;
   max-height: 0;
+  z-index: 3;
   flex-direction: column;
   
 }
