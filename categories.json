@@ -1,0 +1,122 @@
+{
+    "sportCollectif": [
+        {
+            "_id": 0,
+            "name": "basketball"
+        },
+        {
+            "_id": 1,
+            "name": "football"
+        },
+        {
+            "_id": 2,
+            "name": "volleyball"
+        },
+        {
+            "_id": 3,
+            "name": "Handball"
+        },
+        {
+            "_id": 4,
+            "name": "Rugby"
+        },
+        {
+            "_id": 5,
+            "name": "Badminton"
+        },
+        {
+            "_id": 6,
+            "name": "Waterpolo"
+        }
+    ],
+    "sportIndividuel": [
+        {
+            "_id": 7,
+            "name": "Athlétisme"
+        },
+        {
+            "_id": 8,
+            "name": "Canoe"
+        },
+        {
+            "_id": 9,
+            "name": "BMX"
+        },
+        {
+            "_id": 10,
+            "name": "VTT"
+        },
+        {
+            "_id": 11,
+            "name": "Escrime"
+        },
+        {
+            "_id": 12,
+            "name": "Golf"
+        },
+        {
+            "_id": 13,
+            "name": "Gym artistique"
+        },
+        {
+            "_id": 14,
+            "name": "Trompoline"
+        },
+        {
+            "_id": 15,
+            "name": "Haltérophilie"
+        },
+        {
+            "_id": 16,
+            "name": "Judo"
+        },
+        {
+            "_id": 17,
+            "name": "Lutte"
+        },
+        {
+            "_id": 18,
+            "name": "Pentathlon"
+        },
+        {
+            "_id": 19,
+            "name": "Pentathlon"
+        },
+        {
+            "_id": 20,
+            "name": "Natation"
+        },
+        {
+            "_id": 21,
+            "name": "Marathon"
+        },
+        {
+            "_id": 22,
+            "name": "Plongeon"
+        },
+        {
+            "_id": 23,
+            "name": "Taekwondo"
+        },
+        {
+            "_id": 24,
+            "name": "Tennis"
+        },
+        {
+            "_id": 25,
+            "name": "Tennis de Table"
+        },
+        {
+            "_id": 26,
+            "name": "Tir/ Tir à l'arc"
+        },
+        {
+            "_id": 27,
+            "name": "Triathlon"
+        },
+        {
+            "_id": 28,
+            "name": "Voile"
+        }
+    ]
+}
