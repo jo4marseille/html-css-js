@@ -20,32 +20,31 @@
     </head>
 
     <body>
-            <section class="top-nav">
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                <div class='menu-button'></div>
-                </label>
-                <a href="index.html"><img id="logo" src="./images/logo by c4m noir.png" alt="logo"></a>
-                <ul class="menu">
-                    <li><a class="bn59" href="index.html">Accueil</a></li>
-                    <li>
-                        <div class ="nav">
-                            <ol>
-                                <li class="deroulant">
-                                    <a class="bn59">Faire un don</a>
-                                    <ul class="sous-menu">
-                                        <li><a href="football.html">Football</a></li>
-                                        <li><a href="planche_a_voile.html">Voile</a></li>
-                                        <li><a href="catamaran.html">Catamaran &nbsp;</a></li>
-                                    </ul>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
-                    <li><a class="bn59" href="a-propos.html">À propos</a></li>
-                    <li><a class="bn59" href="contact.html">contact</a></li>
-                </ul>
-            </section>
+        <section class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+            </label>
+            <a href="index.html"><img id="logo" src="./images/logo by c4m noir.png" alt="logo"></a>
+            <ul class="menu">
+                <li><a class="bn59" href="index.html">Accueil</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="donation_button btn btn-secondary" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Faire un don
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="football.html">Football</a></li>
+                            <li><a class="dropdown-item" href="planche_à_voile.html">Planche à voile</a></li>
+                            <li><a class="dropdown-item" href="catamaran.html">Catamaran</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="bn59" href="a-propos.html">À propos</a></li>
+                <li><a class="bn59" href="contact.html">contact</a></li>
+            </ul>
+        </section>
 
         <div id="carousel_sport" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">

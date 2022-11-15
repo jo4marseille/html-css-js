@@ -212,9 +212,6 @@ ul{
   letter-spacing: 1px;
   color: #00004D;
 
-
-  backdrop-filter:blur 5px;
-  padding: 3%;
   padding-left: 50%;
   padding-right: 50%;
   white-space:nowrap;
@@ -238,6 +235,22 @@ ul{
   position: sticky;
   top: 0px;
 }
+
+.donation_button{
+  background-color: #ffffff !important;
+  color: #00004D !important;
+  border: none !important;
+  content: none !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  padding-top: 0;
+}
+
+.donation_button:hover{
+  letter-spacing: 1px;
+}
+
 .nav > ol{
   display: flex;
   text-align: center;
