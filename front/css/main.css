@@ -2,16 +2,27 @@
    Your custom CSS styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-/* ==========================================================================
-   Your custom CSS styles for smartphones and screens smaller than 480 px
-   ========================================================================== */
+.jc-c {
+    justify-content: center;
+}
+.d-flex {
+    display: flex;
+}
+.txt-c {
+    text-align: center;
+}
+.w-1320 {
+    max-width: 1320px;
+}
+.p-0 {
+    padding: 20px;
+}
+.bg-primary {
+    background-color: aliceblue;
+}
+.w-800 {
+    max-width: 800px;
+}
 
 @media only screen and (max-width: 480px) {
     /* insert styles here */
