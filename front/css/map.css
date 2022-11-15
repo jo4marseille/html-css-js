@@ -42,3 +42,13 @@
 .mapboxgl-popup {
     max-width: 200px;
 }
+
+.info {
+    line-height: 10%;
+}
+
+.footer-print {
+
+    background-color: #0282c8;
+
+}
