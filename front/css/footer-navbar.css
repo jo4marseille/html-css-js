@@ -1,11 +1,13 @@
 .footer-print {
+  padding-top: 10px;
   bottom: 0;
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: #FCBF31;
   border-radius: 4px 4px 0px 0px;
   min-width: 100vw;
   display: flex;
   padding: 5px 0px;
+  height: 40px;
 }
 
 .footer a {
