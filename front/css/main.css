@@ -6,6 +6,10 @@
     background-color: #00004D;
 }
 
+.carousel-item .row {
+    padding: 0;
+}
+
 .carousel-indicators [data-bs-target]{
     opacity: 1 !important;
 }

@@ -1,7 +1,7 @@
 .input_rounded {
     border-radius: 25px;
     background-color: #F3F3F3;
-    border: 1px black solid;
+    border: 1px black none;
 }
 
 .modal-content {
