@@ -2,6 +2,12 @@
    Your custom CSS styles
    ========================================================================== */
 
+.btn-outline-dark{
+    border-radius: 25px !important;
+    padding: 10px 15px !important;
+    font-weight: bold !important;
+}
+
 .container {
     padding: 0 2rem;
 }
