@@ -24,7 +24,7 @@ h1{
     width: 95%;
     position: absolute;
     bottom: 65px;
-    background-color: #ED354F;
+    background-color: transparent;
     border-radius: 25px;
 }
 
@@ -42,20 +42,23 @@ h1{
 /* main */
 
 .listVolunteer {
-    margin: 60px auto;
+    margin: 40px auto;
     padding: 0;
     width: 300px;
     color: white;
 }
 
 .itemVolunteer {
-    background-color: rgba(237, 53, 79, 0.5);
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 25px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: aliceblue;
+  box-shadow: 5px 6px 5px 1px rgba(204, 204, 204, 0.75);
+  color: black;
+  border: 1px solid #716e6e;
 }
 
 .profile {
@@ -83,10 +86,10 @@ h1{
 }
 
 .itemSocial{
-    border: white solid 2px;
-    padding: 15px;
-    border-radius: 9999px;
-    font-size: 12px;
+  border: black solid 1px;
+  padding: 15px;
+  border-radius: 24px;
+  font-size: 12px;
 }
 
 /* footer */
