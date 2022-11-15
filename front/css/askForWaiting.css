@@ -4,11 +4,6 @@
 
 /* global style */
 
-.body{
-    color: black;
-    font-size: 15px;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -20,6 +15,10 @@ h1{
 }
 
 /* container */
+
+.containerWaiting {
+    margin: 30px;
+}
 
 .containerSocial{
     margin-left: 50%;
@@ -54,10 +53,6 @@ h1{
     font-size: 30px;
     font-weight: bold;
     margin-top: 250px;
-}
-
-.content {
-    margin: 30px;
 }
 
 .loader {
@@ -144,7 +139,7 @@ h1{
     }
 }
 
-.margin{
+.spacer{
     margin-left: 10px;
 }
 
