@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--
+        Don't forget to set a title and description!
+        The title and description both appear in search engine results and
+        social media when sharing.
+        The title also sets the text seen in a browser tab/window.
+        -->
+
+        <title>ask.</title>
+        <meta name="description" content="Ask. is a French community web app that connects and helps local volunteers and tourists coming to attend the Olympic Games">
+
+        <!--
+        The favicon is the image that appears next to your title
+        in a browser tab/window. You can create a .ico file from an image file
+        using a converter (e.g. http://tools.dynamicdrive.com/favicon)
+
+        Once you have a favicon file, overwrite the favicon.ico file in this
+        folder.
+        -->
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+        <!--
+        These link tags load the normalize CSS file and your own CSS file.
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/html5-boilerplate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer-navbar.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+      <div class="header">
+        <a href="homepage.html">
+          <img src="images/askBlue.svg" class="logo-message" alt="">
+          <img src="images/mascotte.png" width="40px" alt="">
+        </a>
+      </div>
+      <section class="chatbox">
+        <section class="chat-window">
+          <article class="msg-container msg-remote" id="msg-0">
+            <div class="msg-box1">
+              <img class="user-img" id="user-0" src="https://www.carrelage-personnalisé.fr/119-thickbox_default/carrelage-avatar.jpg" />
+              <div class="flr">
+                <div class="messages">
+                  <p class="msg" id="msg-0">
+                  Hello, pourrais-tu m'indiquer où ce trouve l'espace fan zone ?!</p>
+                </div>
+                <span class="timestamp"><span class="username">Thomas</span>&bull;<span class="posttime">Now</span></span>
+              </div>
+            </div>
+          </article>
+          <article class="msg-container msg-self" id="msg-0">
+            <div class="msg-box" style="opacity: 0;">
+              <div class="flr">
+                <div class="messages">
+                  <p class="msg" id="msg-1">
+                    Salut ! Oui bien sûr, c'est proche de la statue David, plage du prado 😀
+                  </p>
+                  <!-- <p class="msg" id="msg-2">
+                    Praesent varius
+                  </p> -->
+                </div>
+                <span class="timestamp"><span class="username">Romane</span>&bull;<span class="posttime">Now</span></span>
+              </div>
+              <img class="user-img" id="user-0" src="https://www.carrelage-personnalisé.fr/116-thickbox_default/carrelage-avatar.jpg" />
+            </div>
+          </article>
+          <article class="msg-container msg-remote" id="msg-0">
+            <div class="msg-box3">
+              <img class="user-img" id="user-0" src="https://www.carrelage-personnalisé.fr/119-thickbox_default/carrelage-avatar.jpg" />
+              <div class="flr">
+                <div class="messages">
+                  <p class="msg" id="msg-0">
+                    Merci beaucoup ! A binntot !
+                  </p>
+                </div>
+                <span class="timestamp"><span class="username">Thomas</span>&bull;<span class="posttime">Now</span></span>
+              </div>
+            </div>
+          </article>
+          <article class="msg-container msg-remote" id="msg-0">
+            <div class="msg-box4">
+              <img class="user-img" id="user-0" src="https://www.carrelage-personnalisé.fr/119-thickbox_default/carrelage-avatar.jpg" />
+              <div class="flr">
+                <div class="messages">
+                  <p class="msg" id="msg-0">
+                    À bientôt* 😅
+                  </p>
+                </div>
+                <span class="timestamp"><span class="username">Thomas</span>&bull;<span class="posttime">Now</span></span>
+              </div>
+            </div>
+          </article>
+          <article class="msg-container msg-self" id="msg-0">
+            <div class="msg-box5" style="opacity: 0;">
+              <div class="flr">
+                <div class="messages">
+                  <p class="msg" id="msg-1">
+                    Pas de soucis bonne journée :)
+                  </p>
+                </div>
+                <span class="timestamp"><span class="username">Romane</span>&bull;<span class="posttime">Now</span></span>
+              </div>
+              <img class="user-img" id="user-0" src="https://www.carrelage-personnalisé.fr/116-thickbox_default/carrelage-avatar.jpg" />
+            </div>
+          </article>
+        </section>
+        <form class="chat-input" onsubmit="return false;">
+          <input type="text" autocomplete="on" placeholder="Type a message" />
+          <button style="background-color: #0282C8;">
+            <svg style="background-color: #0282C8; width:24px; height:24px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.38)" d="M17,12L12,17V14H8V10H12V7L17,12M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L5,8.09V15.91L12,19.85L19,15.91V8.09L12,4.15Z" /></svg>
+          </button>
+
+        </form>
+        <footer class="footer-print icons-nav" style="background-color: #0282C8;" >
+
+          <!-- About -->
+          <a  href="./about.html" class="btn btn-primary social-btn" style="background-color: transparent; border:none">
+            <i class="iconify" data-icon="ph:info-bold" style="color: #000000;" data-width="30" data-height="30"></i>
+          </a>
+          <!-- Home -->
+          <a  href="./homepage.html" class="btn btn-primary social-btn" style="background-color: transparent; border:none">
+            <i class="iconify" data-icon="mdi:house-circle-outline" style="color: #000000;" data-width="30" data-height="30"></i>
+          </a>
+
+          <!-- Map -->
+          <a  href="./map.html" class="btn btn-primary social-btn" style="background-color: transparent; border:none">
+            <i class="iconify" data-icon="mdi:map-marker-circle" style="color: #000000;" data-width="30" data-height="30"></i>
+          </a>
+        </footer>
+      </section>
+
+        <!--
+        These script tags load jQuery, any plugins you've downloaded,
+        and your main JavaScript file into your web page
+        -->
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/message.js"></script>
+    </body>
+</html>
