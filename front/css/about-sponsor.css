@@ -1,0 +1,96 @@
+.footer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #707070;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  flex-basis: 30%;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer img {
+  height: 70px;
+  object-fit: contain;
+}
+
+.smaller {
+  height: 40px !important;
+}
+
+.log-in-page {
+  height: 92vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 180px;
+  position: absolute;
+  top: 40vh;
+}
+
+.logo-marseille{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.inco{
+  width: 130px;
+  position: absolute;
+  right: 6vh;
+  bottom: 33vh;
+}
+
+.cd13{
+  width: 130px;
+  position: absolute;
+  left: 4vh;
+  top: 24vh;
+}
+
+.provence{
+  width: 130px;
+  position: absolute;
+  right: 16vh;
+  bottom: 16vh;
+}
+
+.voyage{
+  width: 130px;
+  position: absolute;
+  left: 4vh;
+  bottom: 33vh;
+}
+
+.code4{
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  left: 16vh;
+  width: 130px;
+}
+
+.aws{
+  width: 100px;
+  position: absolute;
+  right: 6vh;
+  top: 24vh;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10vh;
+  width: 24vh;
+  position: relative;
+  bottom: -24%;
+}
