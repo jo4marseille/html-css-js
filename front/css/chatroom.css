@@ -1,0 +1,42 @@
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  /*margin-bottom: 8px; */
+  background: white;
+  padding: 8px 16px;
+  border: 1px solid rgb(235,235,235);
+
+}
+
+.message-description{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: black;
+}
+
+.message .message-content {
+  flex-grow: 1;
+  padding: 0 24px;
+  min-width: 0;
+}
+
+.message p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.message small {
+  color: #999999;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
