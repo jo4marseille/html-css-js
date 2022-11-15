@@ -1,0 +1,15 @@
+setTimeout(function() {
+  $('.msg-box1').fadeTo('slow', 1);
+}, 4000);
+setTimeout(function() {
+  $('.msg-box').fadeTo('slow', 1);
+}, 7000);
+setTimeout(function() {
+  $('.msg-box3').fadeTo('slow', 1);
+}, 10000);
+setTimeout(function() {
+  $('.msg-box4').fadeTo('slow', 1);
+}, 12000);
+setTimeout(function() {
+  $('.msg-box5').fadeTo('slow', 1);
+}, 16000);
