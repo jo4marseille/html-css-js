@@ -20,7 +20,7 @@
 }
 
 .sport {
-    color: #00a651
+    color: #00a651;
 }
 
 .my-location {
@@ -41,6 +41,7 @@
 
 .mapboxgl-popup {
     max-width: 200px;
+    border-radius: 30px;
 }
 
 .info {
