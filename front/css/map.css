@@ -1,0 +1,44 @@
+#map {
+    position: absolute;
+    border-radius: 30px;
+    height: 40%;
+    width: 90%;
+}
+
+@media (min-width: 700px) {
+    #map {
+        width: 85%;
+    }
+}
+
+.button {
+    width: 55%;
+    background-color: #0282c8;
+    color: white;
+    border: 2px solid #0282c8;
+    border-radius: 15px;
+}
+
+.sport {
+    color: #00a651
+}
+
+.my-location {
+    color: black;
+}
+
+.food {
+    color: #fcbf31;
+}
+
+.art {
+    color: #0282c8;
+}
+
+.hotel {
+    color: #ED354F;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
