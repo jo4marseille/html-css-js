@@ -1,4 +1,4 @@
 
 setTimeout(function(){
-    window.location.href = 'askFor.html';
+    window.location.href = 'voluntaryList.html';
 }, 2000);
