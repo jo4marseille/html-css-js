@@ -8,7 +8,7 @@ btn.onclick = function sendDonation() {
 
     formData.forEach((value, key) => (formDataObj[key] = value));
 
-    formDataObj["sport"] = "football";
+    formDataObj["sport"] = btn.getAttribute("data-sport");
 
     console.log(formDataObj)
 

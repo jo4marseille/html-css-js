@@ -8,3 +8,7 @@
     border-radius: 35px !important;
     border-bottom-right-radius: 0 !important;
 }
+
+.fw-600{
+    font-weight: 600;
+}
