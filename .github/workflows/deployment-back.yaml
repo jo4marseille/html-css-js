@@ -97,7 +97,7 @@ jobs:
                         image: ghcr.io/jo4marseille/$IMAGE_NAME:latest
                         name: $IMAGE_NAME
                         ports:
-                          - containerPort: 1337
+                          - containerPort: 3000
                         volumeMounts:
                           - name: $IMAGE_NAME-claim0
                             mountPath: /src
@@ -121,9 +121,9 @@ jobs:
                 name: $IMAGE_NAME
               spec:
                 ports:
-                  - name: "1337"
-                    port: 1337
-                    targetPort: 1337
+                  - name: "3000"
+                    port: 3000
+                    targetPort: 3000
                 selector:
                   io.kompose.service: $IMAGE_NAME
               status:
@@ -148,7 +148,7 @@ jobs:
                             service:
                               name: $IMAGE_NAME
                               port:
-                                number: 1337
+                                number: 3000
                           path: /
                           pathType: Prefix
                 tls:
