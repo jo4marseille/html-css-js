@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- 
+        Don't forget to set a title and description! 
+        The title and description both appear in search engine results and
+        social media when sharing. 
+        The title also sets the text seen in a browser tab/window.
+        -->
+
+        <title></title>
+        <meta name="description" content="">
+
+        <!--
+        The favicon is the image that appears next to your title
+        in a browser tab/window. You can create a .ico file from an image file 
+        using a converter (e.g. http://tools.dynamicdrive.com/favicon)
+        
+        Once you have a favicon file, overwrite the favicon.ico file in this 
+        folder.
+        -->
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!-- 
+        These link tags load the normalize CSS file and your own CSS file.
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/html5-boilerplate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/popup.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <button type="button" id="btn_donation" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#donation">Faire un don</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="donation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h2 class="text-center py-3 fw-bold">FORMULAIRE DE DON</h2>
+                        <form id="donation_form" class="row">
+                            <label for="last_name" class="col-3 mb-3 fw-600">NOM :</label>
+                            <input type="text" class="col-9 mb-3 input_rounded" id="last_name" name="last_name" />
+
+                            <label for="first_name" class="col-3 mb-3 fw-600">PRÉNOM :</label>
+                            <input type="text" id="first_name" class="col-9 mb-3 input_rounded" name="first_name"/>
+
+                            <label for="email" class="col-3 mb-3 fw-600">E-MAIL :</label>
+                            <input type="email" id="email" class="col-9 mb-3 input_rounded" name="email"/>
+
+                            <label for="telephone" class="col-3 mb-3 fw-600">TÉL :</label>
+                            <input type="tel" id="telephone" class="col-9 mb-3 input_rounded" name="telephone"/>
+
+                            <label class="col-3 mb-3 fw-600">MONTANT :</label>
+                            <div class="col-9">
+                                <div class="row">
+                                    <div class="form-check col">
+                                        <input class="form-check-input" type="radio" name="amount" id="one_euro" value="1">
+                                        <label class="form-check-label" for="one_euro">
+                                            1 €
+                                        </label>
+                                    </div>
+                                    <div class="form-check col">
+                                        <input class="form-check-input" type="radio" name="amount" id="five_euro" value="5">
+                                        <label class="form-check-label" for="five_euro">
+                                            5 €
+                                        </label>
+                                    </div>
+                                    <div class="form-check col">
+                                        <input class="form-check-input" type="radio" name="amount" id="ten_euro" value="10">
+                                        <label class="form-check-label" for="ten_euro">
+                                            10 €
+                                        </label>
+                                    </div>
+                                    <div class="form-check col">
+                                        <input class="form-check-input" type="radio" name="amount" id="twenty_euro" value="20">
+                                        <label class="form-check-label" for="twenty_euro">
+                                            20 €
+                                        </label>
+                                    </div>
+                                    <div class="form-check col">
+                                        <input class="form-check-input" type="radio" name="amount" id="fifty_euro" value="50">
+                                        <label class="form-check-label" for="fifty_euro">
+                                            50 €
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" id="sendDonation" disabled class="btn btn-outline-dark w-25" data-sport="football" data-bs-dismiss="modal">Donner</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        These script tags load jQuery, any plugins you've downloaded,
+        and your main JavaScript file into your web page
+        -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="module" src="js/popup.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>

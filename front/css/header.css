@@ -1,0 +1,349 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 80px;
+  color: #00004D;  
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  /* overflow: hidden; */
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #FFFFFF;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+  .nav > ol li:hover .sous-menu a{
+    color: #FFFFFF; 
+    background-color: #00004D;
+    font-size: 1em;
+    padding-bottom: 28%;
+  }
+  .nav > ol li:hover .sous-menu{
+    color: #FFFFFF; 
+    background-color: #00004D;
+    font-size: 1em;
+    position: sticky;
+
+    justify-content: flex-start;
+  }
+  .deroulant .bn59{
+    padding-bottom: 28%;
+    margin-left: -4%;
+  }
+  
+
+
+
+
+  
+  .menu-button-container {
+    display: flex;
+    background-color: #00004D;
+  
+  }
+  .top-nav > a{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 70px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 1%;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    visibility: hidden;
+  }
+  #menu-toggle:checked ~ .menu li {
+
+    height: 2.5em;
+    padding: 1em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    white-space:nowrap;
+    visibility: visible;
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1em 1em;
+    width: 100%;
+    color: #00004D;
+    background-color: #fff;
+    visibility: hidden;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+
+  }
+
+}
+
+#logo{
+  width: 60%;
+  padding-left: 5%;
+  max-height: 150px;
+
+}
+
+.bn59 {
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 2%;
+  opacity: 1;
+  text-align: center;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  color: #00004D;
+  font-size: 1.4em;
+  width: 60%;
+  list-style-type: none;   
+  padding-right: 5%;
+  font-family: 'Poppins', serif;
+  font-weight: bold;
+}
+ ul a{
+  text-transform: uppercase;
+  color: #00004D;   
+  width: 180px;
+  padding-right: 3%;
+}
+ ul a:hover{
+  letter-spacing: 1px;
+  color: #00004D;
+
+  padding-left: 50%;
+  padding-right: 50%;
+  white-space:nowrap;
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/*MENU DEROULANT*/
+
+:root{
+  --hauteur-menu: 30px
+}
+.nav{
+  white-space:nowrap;
+  position: sticky;
+  top: 0px;
+}
+
+.donation_button{
+  background-color: #ffffff !important;
+  color: #00004D !important;
+  border: none !important;
+  content: none !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  padding-top: 0;
+}
+
+.donation_button:hover{
+  letter-spacing: 1px;
+}
+
+.nav > ol{
+  display: flex;
+  text-align: center;
+  height: var(--hauteur-menu);
+}
+.nav ol{
+  list-style-type: none;
+}
+.nav > ol > li{
+  background-color: #FFFFFF;
+  position: relative;
+  height: 100%;
+  flex: 1;   
+}
+.nav > ol > li > a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+li a{
+  text-decoration: none;
+  color: #00004D;   
+}
+.deroulant > a::after{
+  content: ">";
+  font-size: 5px;
+  display: inline-block;
+  height: 300px;
+  color: #00004D;
+
+}
+.sous-menu{
+  margin-top: var(--hauteur-menu);
+  width: 100%;
+  text-align: left;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  overflow: hidden;
+  max-height: 0;
+  z-index: 3;
+  flex-direction: column;
+  
+}
+.sous-menu > li > a{
+  height: 50px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.deroulant > a{
+  color: #00004D;
+  padding-bottom: 15%;
+
+}
+
+
+/* ANIMATION DU MENU*/
+.nav > ol li:hover .sous-menu{
+  color: #FFFFFF; 
+  font-size: 1em;
+}
+
+.sous-menu > li:hover{
+  background-color: white;
+
+}
+.sous-menu > li:hover >a{
+  color:#FFFFFF;
+}
+
+
+
+@keyframes apparitionSousMenu{
+  0%{
+      box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0);
+
+  }
+  30%{
+      box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+  }    
+  100%{
+      max-height: 100em;
+
+      box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+.deroulant:hover > .sous-menu{
+  animation: apparitionSousMenu 1s forwards;
+}
+
+
+
+
+

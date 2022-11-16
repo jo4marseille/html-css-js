@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/html5-boilerplate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cagnotte.css">
+    <link rel="stylesheet" href="css/popup.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <section class="top-nav">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <a href="index.html"><img id="logo" src="./images/logo by c4m noir.png" alt="logo"></a>
+        <ul class="menu">
+            <li><a class="bn59" href="index.html">Accueil</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="donation_button btn btn-secondary" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Faire un don
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="football.html">Football</a></li>
+                        <li><a class="dropdown-item" href="planche_à_voile.html">Planche à voile</a></li>
+                        <li><a class="dropdown-item" href="catamaran.html">Catamaran</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="bn59" href="a-propos.html">À propos</a></li>
+            <li><a class="bn59" href="contact.html">contact</a></li>
+        </ul>
+    </section>
+    <div class="row">
+        <div class="row cagnotte">
+            <div class="col col-lg-8 image">
+                <img src="images/stade_de_marseille_detail_page.jpg" class="img-fluid">
+            </div>
+            <div class="col col-lg-4">
+                <div class="cagnotte_card mx-auto">
+                    <h1 class = "title mr-3">Cagnotte</h1>
+                    <div class="progress mb-3" style="height: 18px;">
+                        <div class="progress-bar" role="progressbar" id="progress-bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div>
+                        <h2 id="cagnotte" class = "info"></h2>
+                        <p class = "des"> objectif : 5 000 €</p>
+                    </div>
+                    <div>
+                        <H2 id="contributor" class = "info">5 194</H2>
+                        <p class = "des">contributeurs</p>
+                    </div>
+                    <div>
+                        <H2 class = "info"><span id="comp"></span></H2>
+                        <p class = "des">avant la fin</p>
+                    </div>
+
+                    <button type="button" id="btn_donation" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#donation">Faire un don</button>
+                </div>
+            </div>
+        </div>
+        <div class="row advantage py-3 col-12">
+            <div class="col-4 text-center">
+                <img class="image_advantage mx-3" src="images/environnement.png" />
+                <span class="fw-bolden w-50">Respect de l'environnement</span>
+            </div>
+            <div class="col-4 text-center">
+                <img src="images/balance.png" class="image_advantage mx-3" />
+                <span class="fw-bolden">Répartition équitable</span>
+            </div>
+            <div class="col-4 text-center">
+                <img src="images/people.png" class="image_advantage mx-3"/>
+                <span class="fw-bolden">Pour les jeunes de 6 à 16 ans</span>
+            </div>
+        </div>
+        <div class="descriptif text-center w-50 col-12">
+            <h1 class="py-3 descriptif_title">Descriptifs des actions</h1>
+            <h4>Le Sport</h4>
+            <h4 class="mb-3">Dernier Rempart contre la fracture sociale.</h4>
+            <p>II - Les affiches de prestiges : </p>
+            <p>- Le foot comme religion à Marseille.</p>
+            <p>Un meilleure accès au place lors d’événement prestigieux. Voilà l’objectif fixé.
+                Toujours en rapport à une question de mixité sociale, et, en raison d’un constat accablant
+                sur les niveaux de revenus des supporters lors d’événement comme l’EURO 2016.
+            </p>
+            <p>Il nous apparait comme citoyen de pouvoir faire bénéficier au jeunes Marseillais d’un accès
+                événements spéciaux.
+            </p>
+            <p>La richesse multiculturelle de la ville de Marseille une
+                force à mettre en avant. Un événement comme les Jeux Olympiques 2024 est une belle opportunité à ne pas manquer pour faire
+                bénéficier aux supporters la possibilité de pouvoir encourager leurs pays.
+            </p>
+            <p>
+                En faisant un don, vous avez la possibilité d’offrir l’opportunité à un de ces jeunes, de, réaliser un rêve.
+            </p>
+
+            <button type="button" id="btn_donation_second" class="btn btn-outline-dark my-4" data-bs-toggle="modal" data-bs-target="#donation">Faire un don</button>
+
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="row">
+            <a href="https://www.departement13.fr/" target="_blank" class="column">
+                <img src="./images/Bouches-du-Rhône_13_logo.png" alt="d13" />
+            </a>
+            <a href="https://www.voyage-prive.com/" target="_blank" class="column">
+                <img src="./images/Voyage_Privé.svg.png" alt="voyage privé" />
+            </a>
+            <a href="https://inco-group.co/" target="_blank" class="column">
+                <img class="smaller" src="./images/inco.png" alt="inco"  />
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://www.myprovence.fr/" target="_blank" class="column">
+                <img src="./images/provencetourisme.png" alt="my provence"  />
+            </a>
+            <a href="https://code4marseille.fr/" target="_blank" class="column">
+                <img src="./images/code4marseille.png" alt="code4marseille"  />
+            </a>
+            <a href="https://aws.amazon.com/fr/?nc2=h_lg" target="_blank" class="column">
+                <img src="./images/AWS.png" alt="aws" />
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="donation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="text-center py-3 fw-bold">FORMULAIRE DE DON</h2>
+                    <form id="donation_form" class="row">
+                        <label for="last_name" class="col-3 mb-3 fw-600">NOM :</label>
+                        <input type="text" class="col-9 mb-3 input_rounded" id="last_name" name="last_name" />
+
+                        <label for="first_name" class="col-3 mb-3 fw-600">PRÉNOM :</label>
+                        <input type="text" id="first_name" class="col-9 mb-3 input_rounded" name="first_name"/>
+
+                        <label for="email" class="col-3 mb-3 fw-600">E-MAIL :</label>
+                        <input type="email" id="email" class="col-9 mb-3 input_rounded" name="email"/>
+
+                        <label for="telephone" class="col-3 mb-3 fw-600">TÉL :</label>
+                        <input type="tel" id="telephone" class="col-9 mb-3 input_rounded" name="telephone"/>
+
+                        <label class="col-3 mb-3 fw-600">MONTANT :</label>
+                        <div class="col-9">
+                            <div class="row">
+                                <div class="form-check col">
+                                    <input class="form-check-input" type="radio" name="amount" id="one_euro" value="1">
+                                    <label class="form-check-label" for="one_euro">
+                                        1 €
+                                    </label>
+                                </div>
+                                <div class="form-check col">
+                                    <input class="form-check-input" type="radio" name="amount" id="five_euro" value="5">
+                                    <label class="form-check-label" for="five_euro">
+                                        5 €
+                                    </label>
+                                </div>
+                                <div class="form-check col">
+                                    <input class="form-check-input" type="radio" name="amount" id="ten_euro" value="10">
+                                    <label class="form-check-label" for="ten_euro">
+                                        10 €
+                                    </label>
+                                </div>
+                                <div class="form-check col">
+                                    <input class="form-check-input" type="radio" name="amount" id="twenty_euro" value="20">
+                                    <label class="form-check-label" for="twenty_euro">
+                                        20 €
+                                    </label>
+                                </div>
+                                <div class="form-check col">
+                                    <input class="form-check-input" type="radio" name="amount" id="fifty_euro" value="50">
+                                    <label class="form-check-label" for="fifty_euro">
+                                        50 €
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" id="sendDonation" disabled class="btn btn-outline-dark w-25" data-sport="football" data-bs-dismiss="modal">Donner</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/cagnotte.js"></script>
+    <script type="module" src="js/popup.js"></script>
+
+</body>
+</html>

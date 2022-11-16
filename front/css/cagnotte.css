@@ -1,0 +1,43 @@
+.row{
+    padding: 0 !important;
+}
+
+.cagnotte{
+    background-color: #00004D;
+}
+
+.descriptif{
+    background-color: #FFFFFF;
+}
+
+.descriptif_title{
+    font-weight: 900;
+}
+
+h2 {
+    text-align: left !important;
+}
+
+.cagnotte_card{
+    width: 85%;
+}
+
+.image {
+    padding: 0 !important;
+}
+
+.title{
+    color: #FFFFFF;
+}
+
+.info{
+    color: #FF5757;
+}
+
+.des{
+    color: #F3F3F3;
+}
+
+.progress-bar{
+    background-color: #FF5757 !important;
+}
