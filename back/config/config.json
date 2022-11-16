@@ -14,10 +14,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "hackathon",
-    "host": "127.0.0.1",
+    "username": "jo-pour-tous",
+    "password": "jo-pour-tous",
+    "database": "jo-pour-tous",
+    "host": "13.38.194.199",
+    "port": "30306",
     "dialect": "mysql"
   }
 }
