@@ -1,37 +1,42 @@
 /* ==========================================================================
    Your custom CSS styles
    ========================================================================== */
-#container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#container {
     display: flex;
     font-size: 30px;
     padding: 20px;
 }
 
-#texte{
+#texte {
     width: 50%;
     text-align: center;
 }
 
-#container1{
+#container1 {
     display: flex;
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
 }
 
-#smallTexte{
+#smallTexte {
     width: 30%;
     transform: translateY(50%);
 }
 
 
-.petiteImage{
+.petiteImage {
     height: 200px;
     margin: 10px;
 }
-
-
-
 
 
 
@@ -66,8 +71,10 @@
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
