@@ -26,7 +26,7 @@ btn.onclick = function sendDonation() {
 
     console.log(formDataObj)
 
-    axios.post("https://jo-pour-tous-api.jo4marseille.fr//api/donation", formDataObj)
+    axios.post("https://jo-pour-tous-api.jo4marseille.fr/api/donation", formDataObj)
         .then(data => {
             console.log(data);
             location.reload();
