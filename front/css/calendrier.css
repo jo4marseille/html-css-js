@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 section.calendrier {
     height: 600px;
     margin: 0;
@@ -8,7 +6,7 @@ section.calendrier {
     grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
     align-items: center;
     justify-items: center;
-    font-family: 'Poppins', sans-serif;
+
 
 }
 
