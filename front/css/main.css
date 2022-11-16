@@ -1,6 +1,37 @@
 /* ==========================================================================
    Your custom CSS styles
    ========================================================================== */
+#container{
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#texte{
+    width: 50%;
+    text-align: center;
+}
+
+#container1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#smallTexte{
+    width: 30%;
+    transform: translateY(50%);
+}
+
+
+.petiteImage{
+    height: 200px;
+    margin: 10px;
+}
+
+
+
 
 
 
