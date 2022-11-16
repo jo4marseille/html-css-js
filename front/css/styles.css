@@ -1,5 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body{
   overflow: hidden;
+}
+
+
+.bg{
+  height: 844px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .header{
@@ -12,14 +30,18 @@ body{
 }
 
 .log-in-page {
-  height: 92vh;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo{
-  width: 180px;
+  max-width: 180px;
   position: absolute;
   top: 40vh;
 }
@@ -72,6 +94,12 @@ body{
   top: 24vh;
 }
 
+.olympic{
+  max-width: 120px;
+  position: absolute;
+  top: 51vh;
+}
+
 .container-button {
   display: flex;
   flex-direction: column;
@@ -79,7 +107,7 @@ body{
   height: 10vh;
   width: 24vh;
   position: relative;
-  bottom: -24%;
+  bottom: -30%;
 }
 
 .legal-btn{
@@ -126,7 +154,7 @@ body{
   height: 60px;
   position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 51px;
     width: 100%;
   /* background: #40434e; */
   border-top: 1px solid #939393;

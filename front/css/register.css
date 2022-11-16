@@ -1,5 +1,5 @@
 .wrapper {
-    height: 80vh;
+    height: 90vh;
 }
 
 .flag{
@@ -8,36 +8,36 @@
 }
 
 .form-check-input:checked {
-    background-color: #fcbf31!important;
-    border-color: #fcbf31!important;
+    background-color: #00A651!important;
+    border-color: #00A651!important;
 
 }
 
 .input:checked {
-    background-color: #fcbf31!important;
+    background-color: #00A651!important;
 }
 
 .button {
     width: 50%;
-    background-color: #fcbf31;
+    background-color: #00A651;
     color: white;
     border-radius: 30px;
-    border: 2px solid #fcbf31;
+    border: 2px solid #00A651;
 }
 
 input[type="checkbox"]:checked + label::after {
-    background-color: #fcbf31;
+    background-color: #00A651;
 }
 
 .button:hover {
-    border: 2px solid #fcbf31;
+    border: 2px solid #00A651;
     background-color: white;
-    color: #fcbf31;
+    color: #00A651;
 }
 
 .input{
     border-radius: 15px;
-    border: 2px solid #fcbf31;
+    border: 2px solid #00A651;
 }
 
 .tag {
@@ -45,8 +45,9 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .selected {
-    background-color: #fcbf31;
+    background-color: #00A651;
     border-radius: 15px;
+    color: white;
 }
 
 .dropdown-check-list {
@@ -95,7 +96,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .dropdown-check-list.visible .anchor {
-    color: #fcbf31;
+    color: #00A651;
 }
 
 .dropdown-check-list.visible .items {

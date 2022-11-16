@@ -2,7 +2,6 @@
   padding-top: 10px;
   bottom: 0;
   position: absolute;
-  background-color: #FCBF31;
   border-radius: 4px 4px 0px 0px;
   min-width: 100vw;
   display: flex;
@@ -29,4 +28,8 @@
 
 .tabs {
   color: #f3f3f3;
+}
+
+#morepx {
+  height: 50px;
 }

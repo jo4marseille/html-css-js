@@ -4,11 +4,6 @@
 
 /* global style */
 
-.body{
-    color: black;
-    font-size: 15px;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -21,36 +16,49 @@ h1{
 
 /* container */
 
-.containerLogo{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    padding-top: 60px;
+.containerSocial{
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    height: 100px;
+    width: 95%;
+    position: absolute;
+    bottom: 65px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 1vh;
+    height: 80px;
+    padding-left: 10px;
 }
 
 /* main */
 
-.logo{
-    margin: auto;
-    width: 100%;
-}
-
 .listVolunteer {
-    margin: 38px auto;
+    margin: 40px auto;
     padding: 0;
     width: 300px;
     color: white;
 }
 
-/* List element */
 .itemVolunteer {
-    background-color: rgba(237, 53, 79, 0.5);
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 25px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: aliceblue;
+  box-shadow: 5px 6px 5px 1px rgba(204, 204, 204, 0.75);
+  color: black;
+  border: 1px solid #716e6e;
 }
 
 .profile {
@@ -58,27 +66,16 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px rgba(0, 0, 0, 0.5) solid;
+    background-color: #b9b9b9;
+    color: #626262;
+    border: 2px rgb(46, 46, 46) solid;
     width: 50px;
     height: 50px;
     margin-right: 12px;
 }
 
 .profile i {
-font-size: 35px;
-}
-
-/* footer */
-
-.footer{
-    margin-top: 26px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    height: 100px;
-    width: 95%;
-    background-color: #ED354F;
-    border-radius: 25px;
+    font-size: 35px;
 }
 
 .socialLink{
@@ -89,9 +86,24 @@ font-size: 35px;
 }
 
 .itemSocial{
-    border: white solid 2px;
-    padding: 15px;
-    border-radius: 9999px;
+  border: black solid 1px;
+  padding: 15px;
+  border-radius: 24px;
+  font-size: 12px;
+}
+
+/* footer */
+
+.footer-print {
+    padding-top: 10px;
+    bottom: 0;
+    position: absolute;
+    background-color: #ED354F;
+    border-radius: 4px 4px 0px 0px;
+    min-width: 100vw;
+    display: flex;
+    padding: 5px 0px;
+    height: 40px;
 }
 
 /* ==========================================================================
