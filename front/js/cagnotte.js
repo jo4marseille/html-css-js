@@ -1,7 +1,7 @@
 let path = window.location.pathname;
 let page = path.split("/").pop();
 
-axios.get("http://localhost:3000/api/donation/amount/" + page.slice(0, -5))
+axios.get("https://jo-pour-tous-api.jo4marseille.fr//api/donation/amount/" + page.slice(0, -5))
 .then(data => {
     let info = data.data;
 
