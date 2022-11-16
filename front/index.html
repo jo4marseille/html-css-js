@@ -1,26 +1,86 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="fr">
 
-        <title></title>
-        <meta name="description" content="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="favicon.ico">
+    <title>Jo Direct</title>
+    <meta name="description" content="">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/html5-boilerplate.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/normalize.css">
+    <link rel="stylesheet" href="css/html5-boilerplate.css">
+    <link rel="stylesheet" href="/front/css/main.css">
+    <link rel="stylesheet" href="css/calendrier.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/fe7cbf9353.js" crossorigin="anonymous"></script>
 
-    <body>
-        <p>Hello Front Row Viewers!</p>
+</head>
+
+<body>
+    <section class="calendrier">
+        <input type="radio" name="position" />
+        <input type="radio" name="position" checked />
+        <input type="radio" name="position" />
+
+        <main id="carousel">
+            <div class="item">
+                <img src="css/img/voile.jpg" alt="Photo de voile">
+                <strong>Voile</strong>
+                <p><i class="fa-solid fa-map-pin"></i> La Marina,Marseille </p>
+                <p><i class="fa-solid fa-calendar-days"></i> 26 Juillet 2024</p>
+                <p><i class="fa-solid fa-clock"></i> 10h45</p>
+
+            </div>
+            <div class="item">
+                <img src="css/img/athletisme.jpg" alt="Photo illustrant l'athlétisme">
+
+                <strong>Athlétisme</strong>
+                <p><i class="fa-solid fa-map-pin"></i> Paris </p>
+                <p><i class="fa-solid fa-calendar-days"></i> 26 Juillet 2024</p>
+                <p><i class="fa-solid fa-clock"></i> 13h45</p>
+
+            </div>
+            <div class="item">
+                <img src="css/img/foot.jpg" alt="photo illustrant le foot">
+                <strong>Foot</strong>
+                <p><i class="fa-solid fa-map-pin"></i> Parc des princes,Paris</p>
+                <p><i class="fa-solid fa-calendar-days"></i> 26 Juillet 2024</p>
+                <p><i class="fa-solid fa-clock"></i> 20h45</p>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+            </div>
+
+        </main>
+    </section>
+    <section>
+        <div>
+            <div id="container">
+                <div id="texte"><h1>Mon titre</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium sint accusamus dolores illum possimus doloribus temporibus maiores, vero saepe incidunt consectetur neque deserunt fugiat voluptate facere repellendus ea! Laborum?</div>
+                <div id="image"><img class="grandeImage" src="images/ruugby.jpg" alt=""></div>
+            </div>
+
+            <div id="container1">
+                <div id="smallTexte">Lorem ipsum, dolor sit amet consectetur dolor sit amet consectetur adipisicing elit. Molestiae, a?</div>
+                <div id="img1"><img class="petiteImage" src="images/victoire.jpg" alt=""></div>
+                <div id="img2"><img class="petiteImage" src="images/hymne.jpg" alt=""></div>
+                <div id="img3"><img class="petiteImage" src="images/oui.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
 </html>
